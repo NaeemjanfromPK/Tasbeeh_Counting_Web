@@ -1,0 +1,55 @@
+body{
+  background-image: url(pic.jpg);
+  background-size: cover;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container{
+  background-color: white;
+  width: 45%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+#counter{
+  margin: 2rem 0;
+}
+
+button {
+  width: 12rem;
+  padding: 1rem 3rem;
+  border: 2px solid rgb(125, 125, 125);
+  border-radius: 6px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#increament-btn{
+  background-color: rgb(253, 181, 0);
+}
+#increament-btn:hover{
+  background-color: rgb(176, 126, 0);
+}
+#save-btn{
+  margin: 1rem 0;
+  background-color: rgb(12, 207, 12);
+}
+
+#reset-btn{
+  margin-top: 3rem;
+  background-color: red ;
+}
+h5{
+  color: rgb(137, 137, 137);
+}
+strong{
+  color: rgb(94, 94, 94);
+  font-weight: bolder;
+}
+
